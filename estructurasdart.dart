@@ -1,4 +1,4 @@
-/*import 'dart:io'; Punto1
+/*import 'dart:io';
 
 void main() {
   stdout.write('Ingresa un numero: ');
@@ -10,19 +10,19 @@ void main() {
     print('$numero no es par y divisible por 3.');
   }
 }*/
-/*import 'dart:io'; punto2
+import 'dart:io';
 
 void main() {
   stdout.write('Ingresa los numeros separados por espacio: ');
   String entrada = stdin.readLineSync()!;
-  
+
   List<String> numStrList = entrada.split(' ');
   List<int> numeros = numStrList.map((str) => int.parse(str)).toList();
-  
+
   numeros.sort();
 
   print('Lista ordenada de menor a mayor: $numeros');
-}*/
+}
 /* Punto3
 void main() {
   List<Map<String, dynamic>> objects = [];
